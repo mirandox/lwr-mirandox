@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rm -rf node_modules __lwr_cache__ site",
     "dev": "lwr dev",
-    "build": "lwr build --clean",
+    "build": "lwr build --clean public",
     "start": "lwr start",
     "stage": "yarn build && yarn start"
   },
